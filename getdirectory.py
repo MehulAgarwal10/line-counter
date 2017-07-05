@@ -1,5 +1,5 @@
 import os
-from lineCounter import checkDir
+import checkDir
 
 
 
