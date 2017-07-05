@@ -1,11 +1,12 @@
 # line-counter
 
 How to run : 
+	
 	python3 getdirectory.py
 
 	OR
 
-	python getdirectory.pu
+	python getdirectory.py
 
 
 Specify the absolute path to start crawling the directory tree.
