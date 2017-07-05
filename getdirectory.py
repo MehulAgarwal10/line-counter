@@ -2,6 +2,7 @@ import os
 from lineCounter import checkDir
 
 
+
 def count_lines(exfiles):
     count = 0
     total_count = 0
@@ -36,7 +37,7 @@ def walk_and_count(path, ex):
                 os.chdir(new_path)
                 walk_and_count(new_path, ex)
 
-
+print('Line-Counter!')
 
 total_line_count = 0
 my_path = os.getcwd()
